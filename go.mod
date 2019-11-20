@@ -3,7 +3,7 @@ module github.com/kubernetes-sigs/aws-alb-ingress-controller
 require (
 	github.com/appscode/jsonpatch v0.0.0-20190108182946-7c0e3b262f30 // indirect
 	github.com/aws/aws-k8s-tester/e2e/tester v0.0.0-20190907061006-260b0e114d90 // indirect
-	github.com/aws/aws-sdk-go v1.23.21
+	github.com/aws/aws-sdk-go v1.25.38
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/go-logr/glogr v0.1.0
 	github.com/go-logr/logr v0.1.0 // indirect
@@ -54,3 +54,5 @@ require (
 	sigs.k8s.io/structured-merge-diff v0.0.0-20190215000154-7666d3d49c8f // indirect
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
+
+go 1.13
